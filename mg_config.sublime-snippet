@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<modules>
-		<${1:Company}_${2:Module}>
-			<version>0.0.1</version>
-		</$1_$2>
-	</modules>
-</config>
+	<?xml version="1.0" encoding="UTF-8"?>
+	<config>
+		<modules>
+			<${1:Company}_${2:Module}>
+				<version>0.0.1</version>
+			</$1_$2>
+		</modules>
+	</config>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>mg-config</tabTrigger>

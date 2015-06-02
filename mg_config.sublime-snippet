@@ -8,6 +8,7 @@
 			</$1_$2>
 		</modules>
 	</config>
-]]></content>
+	]]>
+	</content>
 	<tabTrigger>mg-config</tabTrigger>
 </snippet>

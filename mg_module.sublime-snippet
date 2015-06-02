@@ -4,11 +4,11 @@
 <config>
 	<modules>
 		<${1:Company}_${2:Module}>
-			<version>${3:0.0.1}</version>
+			<active>${3:true}</active>
+            <codePool>${4:local}</codePool>
 		</$1_$2>
 	</modules>
 </config>
-]]>
-	</content>
-	<tabTrigger>mg-config</tabTrigger>
+]]></content>
+	<tabTrigger>mg-module</tabTrigger>
 </snippet>

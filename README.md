@@ -12,7 +12,7 @@ Gives you the possibility of create a entire config.xml file
 
 #### mg-module
 
-Gives you the possibility of create a usual Company_Moduel.xml file
+Gives you the possibility of create a usual Company_Module.xml file
 
     mg-module + tab
 

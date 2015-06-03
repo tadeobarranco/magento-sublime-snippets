@@ -7,6 +7,23 @@
 			<version>${3:0.0.1}</version>
 		</$1_$2>
 	</modules>
+	${4:<global>
+		${5:<blocks>
+			<${2/(.)/\L\1\E/g}>
+				<class>$1_$2_Block</class>
+			</${2/(.)/\L\1\E/g}>
+		</blocks>}
+		${6:<helpers>
+			<${2/(.)/\L\1\E/g}>
+				<class>$1_$2_Helper</class>
+			</${2/(.)/\L\1\E/g}>
+		</helpers>}
+		${7:<models>
+			<${2/(.)/\L\1\E/g}>
+				<class>$1_$2_Model</class>
+			</${2/(.)/\L\1\E/g}>
+		</models>}
+	</global>}
 </config>
 ]]>
 	</content>

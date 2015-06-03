@@ -1,6 +1,6 @@
 # MagentoSublimeSnippets
 
-This files are created to help Magento Devolopers to create the needed files in a custom Magento Module Application on Sublime Text Editor.
+This files are created to help Magento Developers to create the needed files in a custom Magento Module Application on Sublime Text Editor.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Gives you the possibility of create a entire config.xml file
 
 #### mg-module
 
-Gives you the possibility of create a usual Company_Moduel.xml file
+Gives you the possibility of create a usual Company_Module.xml file
 
     mg-module + tab
 

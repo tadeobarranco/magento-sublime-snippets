@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1:<global>
+	${2:<blocks>
+		<${3:namespace}>
+			<class>${4:Company}_${5:Module}_Block</class>
+		</$3>
+	</blocks>}
+	${6:<helpers>
+		<${7:namespace}>
+			<class>${8:Company}_${9:Module}_Helper</class>
+		</$7>
+	</helpers>}
+	${10:<models>
+		<${11:namespace}>
+			<class>${12:Company}_${13:Module}_Model</class>
+		</$11>
+	</models>}
+</global>}
+]]></content>
+	<tabTrigger>mg-config-global</tabTrigger>
+</snippet>

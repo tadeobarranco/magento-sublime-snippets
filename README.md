@@ -12,9 +12,9 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 
 #### mg-config-global
 
-    mg-config-global + tab
-
 Gives you the possibility of create a global tag used at config.xml
+
+    mg-config-global + tab
 
 #### mg-module
 

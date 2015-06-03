@@ -5,7 +5,7 @@
 	<modules>
 		<${1:Company}_${2:Module}>
 			<active>${3:true}</active>
-            <codePool>${4:local}</codePool>
+			<codePool>${4:local}</codePool>
 		</$1_$2>
 	</modules>
 </config>

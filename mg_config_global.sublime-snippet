@@ -18,5 +18,5 @@ ${1:<global>
 	</models>}
 </global>}
 ]]></content>
-	<tabTrigger>mg-config-global</tabTrigger>
+	<tabTrigger>mg-global</tabTrigger>
 </snippet>

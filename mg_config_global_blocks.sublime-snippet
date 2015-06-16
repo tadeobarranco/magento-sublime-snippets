@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:<blocks>
+	<${2:namespace}>
+		<class>${3:Company}_${4:Module}_Block</class>
+	</$2>
+</blocks>}
+]]></content>
+	<tabTrigger>mg-config-global-blocks</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

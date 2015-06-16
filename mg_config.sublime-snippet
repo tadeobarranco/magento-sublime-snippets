@@ -28,4 +28,5 @@
 ]]>
 	</content>
 	<tabTrigger>mg-config</tabTrigger>
+	<scope>text.xml</scope>
 </snippet>

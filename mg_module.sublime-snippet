@@ -11,4 +11,5 @@
 </config>
 ]]></content>
 	<tabTrigger>mg-module</tabTrigger>
+	<scope>text.xml</scope>
 </snippet>

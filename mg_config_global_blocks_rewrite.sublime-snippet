@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:<${2:namespace}>
+	<rewrite>
+		<${3:block_class}>${4:Company}_${5:Module}_Block_${6:New_Class}</$3>
+	</rewrite>
+</$2>}
+]]></content>
+	<tabTrigger>mg-config-global-blocks-rewrite</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

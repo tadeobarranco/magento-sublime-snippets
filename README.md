@@ -10,7 +10,7 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 
     mg-config + tab
 
-#### mg-global
+#### mg-config-global
 
 Gives you the possibility of create a global tag used at config.xml
 

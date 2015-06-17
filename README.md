@@ -52,7 +52,7 @@ Gives you the possibility of create a blocks declaration tags under global tag a
 
 Gives you the possibility of create a rewrite block declaration tags under global tag at config.xml
 
-    mg-config-global-blocks-rewrite
+    mg-config-global-blocks-rewrite + tab
 
 ```xml
 <namespace>
@@ -66,7 +66,7 @@ Gives you the possibility of create a rewrite block declaration tags under globa
 
 Gives you the possibility of create a rewrite block class declaration tag under rewrite tag at config.xml
 
-    mg-config-global-blocks-rewrite-class
+    mg-config-global-blocks-rewrite-class + tab
 
 ```xml
 <block_class>Company_Module_Block_New_Class</block_class>

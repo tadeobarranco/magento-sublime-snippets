@@ -73,3 +73,17 @@ Gives you the possibility of create a rewrite block class declaration tag under 
 ```xml
 <block_class>Company_Module_Block_New_Class</block_class>
 ```
+
+#### mg-config-global-helpers
+
+Gives you the possibility of create a helpers declaration tags under global tag at config.xml
+
+    mg-config-global-helpers + tab
+
+```xml
+<helpers>
+	<namespace>
+		<class>Company_Module_Helper</class>
+	</namespace>
+</helpers>
+```

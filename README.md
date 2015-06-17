@@ -61,3 +61,13 @@ Gives you the possibility of create a rewrite block declaration tags under globa
 	</rewrite>
 </namespace>
 ```
+
+#### mg-config-global-blocks-rewrite-class
+
+Gives you the possibility of create a rewrite block class declaration tag under rewrite tag at config.xml
+
+    mg-config-global-blocks-rewrite-class
+
+```xml
+<block_class>Company_Module_Block_New_Class</block_class>
+```

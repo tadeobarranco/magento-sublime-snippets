@@ -4,6 +4,8 @@ This files are created to help Magento Developers to create the needed files in 
 
 ## Usage
 
+You can navigate through each snippet so you can change the values of the different components that comprise.
+
 #### mg-module
 
 Gives you the possibility of create a usual Company_Module.xml file

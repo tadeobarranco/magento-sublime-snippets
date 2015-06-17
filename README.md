@@ -47,3 +47,17 @@ Gives you the possibility of create a blocks declaration tags under global tag a
 	</namespace>
 </blocks>
 ```
+
+#### mg-config-global-blocks-rewrite
+
+Gives you the possibility of create a rewrite block declaration tags under global tag at config.xml
+
+    mg-config-global-blocks-rewrite
+
+```xml
+<namespace>
+	<rewrite>
+		<block_class>Company_Module_Block_New_Class</block_class>
+	</rewrite>
+</namespace>
+```

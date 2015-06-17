@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:<helpers>
+	<${2:namespace}>
+		<class>${3:Company}_${4:Module}_Helper</class>
+	</$2>
+</helpers>}
+]]></content>
+	<tabTrigger>mg-config-global-helpers</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

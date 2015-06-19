@@ -35,6 +35,26 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 Gives you the possibility of create a global tag used at config.xml
 
     mg-global + tab
+
+```xml
+<global>
+	<blocks>
+		<namespace>
+			<class>Company_Module_Block</class>
+		</namespace>
+	</blocks>
+	<helpers>
+		<namespace>
+			<class>Company_Module_Helper</class>
+		</namespace>
+	</helpers>
+	<models>
+		<namespace>
+			<class>Company_Module_Model</class>
+		</namespace>
+	</models>
+</global>
+```
     
 #### mg-blocks
 

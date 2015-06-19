@@ -109,5 +109,5 @@ Gives you the possibility of create a rewrite helper class declaration tags unde
     mg-helpers-rewrite-class + tab
 
 ```xml
-<${1:helper_class}>${2:Company}_${3:Module}_Helper_${4:New_Class}</$1>
+<helper_class>Company_Module_Helper_New_Class</helper_class>
 ```

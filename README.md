@@ -30,17 +30,17 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 
     mg-config + tab
 
-#### mg-config-global
+#### mg-global
 
 Gives you the possibility of create a global tag used at config.xml
 
-    mg-config-global + tab
+    mg-global + tab
     
-#### mg-config-global-blocks
+#### mg-blocks
 
 Gives you the possibility of create a blocks declaration tags under global tag at config.xml
 
-    mg-config-global-blocks + tab
+    mg-blocks + tab
 
 ```xml
 <blocks>
@@ -50,11 +50,11 @@ Gives you the possibility of create a blocks declaration tags under global tag a
 </blocks>
 ```
 
-#### mg-config-global-blocks-rewrite
+#### mg-blocks-rewrite
 
 Gives you the possibility of create a rewrite block declaration tags under global tag at config.xml
 
-    mg-config-global-blocks-rewrite + tab
+    mg-blocks-rewrite + tab
 
 ```xml
 <namespace>
@@ -64,21 +64,21 @@ Gives you the possibility of create a rewrite block declaration tags under globa
 </namespace>
 ```
 
-#### mg-config-global-blocks-rewrite-class
+#### mg-blocks-rewrite-class
 
 Gives you the possibility of create a rewrite block class declaration tag under rewrite tag at config.xml
 
-    mg-config-global-blocks-rewrite-class + tab
+    mg-blocks-rewrite-class + tab
 
 ```xml
 <block_class>Company_Module_Block_New_Class</block_class>
 ```
 
-#### mg-config-global-helpers
+#### mg-helpers
 
 Gives you the possibility of create a helpers declaration tags under global tag at config.xml
 
-    mg-config-global-helpers + tab
+    mg-helpers + tab
 
 ```xml
 <helpers>
@@ -88,11 +88,11 @@ Gives you the possibility of create a helpers declaration tags under global tag 
 </helpers>
 ```
 
-#### mg-config-global-helpers-rewrite
+#### mg-helpers-rewrite
 
-Gives you the possibility of create a rewrite block declaration tags under global tag at config.xml
+Gives you the possibility of create a rewrite helper declaration tags under global tag at config.xml
 
-    mg-config-global-helpers-rewrite + tab
+    mg-helpers-rewrite + tab
 
 ```xml
 <namespace>
@@ -100,4 +100,14 @@ Gives you the possibility of create a rewrite block declaration tags under globa
 		<helper_class>Company_Module_Helper_New_Class</helper_class>
 	</rewrite>
 </namespace>
+```
+
+#### mg-helpers-rewrite-class
+
+Gives you the possibility of create a rewrite helper class declaration tags under global tag at config.xml
+
+    mg-helpers-rewrite-class + tab
+
+```xml
+<${1:helper_class}>${2:Company}_${3:Module}_Helper_${4:New_Class}</$1>
 ```

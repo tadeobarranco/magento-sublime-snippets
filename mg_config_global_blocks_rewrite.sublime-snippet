@@ -6,6 +6,6 @@ ${1:<${2:namespace}>
 	</rewrite>
 </$2>}
 ]]></content>
-	<tabTrigger>mg-config-global-blocks-rewrite</tabTrigger>
+	<tabTrigger>mg-blocks-rewrite</tabTrigger>
 	<scope>text.xml</scope>
 </snippet>

@@ -18,6 +18,6 @@ ${1:<global>
 	</models>}
 </global>}
 ]]></content>
-	<tabTrigger>mg-config-global</tabTrigger>
+	<tabTrigger>mg-global</tabTrigger>
 	<scope>text.xml</scope>
 </snippet>

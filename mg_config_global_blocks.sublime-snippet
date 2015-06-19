@@ -6,6 +6,6 @@ ${1:<blocks>
 	</$2>
 </blocks>}
 ]]></content>
-	<tabTrigger>mg-config-global-blocks</tabTrigger>
+	<tabTrigger>mg-blocks</tabTrigger>
 	<scope>text.xml</scope>
 </snippet>

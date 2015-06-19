@@ -2,6 +2,6 @@
 	<content><![CDATA[
 <${1:block_class}>${2:Company}_${3:Module}_Block_${4:New_Class}</$1>
 ]]></content>
-	<tabTrigger>mg-config-global-blocks-rewrite-class</tabTrigger>
+	<tabTrigger>mg-blocks-rewrite-class</tabTrigger>
 	<scope>text.xml</scope>
 </snippet>

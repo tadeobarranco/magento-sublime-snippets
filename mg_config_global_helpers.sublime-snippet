@@ -6,6 +6,6 @@ ${1:<helpers>
 	</$2>
 </helpers>}
 ]]></content>
-	<tabTrigger>mg-config-global-helpers</tabTrigger>
+	<tabTrigger>mg-helpers</tabTrigger>
 	<scope>text.xml</scope>
 </snippet>

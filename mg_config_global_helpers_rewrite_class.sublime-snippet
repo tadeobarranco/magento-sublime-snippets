@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<${1:helper_class}>${2:Company}_${3:Module}_Helper_${4:New_Class}</$1>
+]]></content>
+	<tabTrigger>mg-helpers-rewrite-class</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

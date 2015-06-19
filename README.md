@@ -87,3 +87,17 @@ Gives you the possibility of create a helpers declaration tags under global tag 
 	</namespace>
 </helpers>
 ```
+
+#### mg-config-global-helpers-rewrite
+
+Gives you the possibility of create a rewrite block declaration tags under global tag at config.xml
+
+    mg-config-global-helpers-rewrite + tab
+
+```xml
+<namespace>
+	<rewrite>
+		<helper_class>Company_Module_Helper_New_Class</helper_class>
+	</rewrite>
+</namespace>
+```

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:<models>
+	<${2:namespace}>
+		<class>${3:Company}_${4:Module}_Model</class>
+		${5:<resourceModel>$2_${6:resource_model_type}</resourceModel>}
+		${7:<$2_$6>
+
+		</$2_$6>}
+	</$2>
+</models>}
+]]></content>
+	<tabTrigger>mg-models</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

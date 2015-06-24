@@ -3,9 +3,14 @@
 ${1:<models>
 	<${2:namespace}>
 		<class>${3:Company}_${4:Module}_Model</class>
-		${5:<resourceModel>$2_${6:resource_model_type}</resourceModel>}
+		${5:<resourceModel>$2_${6:resource_type}</resourceModel>}
 		${7:<$2_$6>
-
+			<class>$3_$4_Model_${8:Resource_Type}</class>
+			${9:<entities>
+				<${10:table_alias}>
+					<table>${11:table_name}</table>
+				</$10>
+			</entities>}
 		</$2_$6>}
 	</$2>
 </models>}

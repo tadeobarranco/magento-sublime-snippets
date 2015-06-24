@@ -4,6 +4,8 @@ This files are created to help Magento Developers to create the needed files in 
 
 ## Usage
 
+The snippets has a scope restriction, snippets about configurations and layouts has xml files scope, this means that to use these snippets you have to create files wiht xml extension.
+
 You can navigate through each snippet so you can change the values of the different components that comprise.
 
 #### mg-module

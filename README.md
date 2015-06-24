@@ -133,3 +133,26 @@ Gives you the possibility of create a rewrite helper class declaration tags unde
 ```xml
 <helper_class>Company_Module_Helper_New_Class</helper_class>
 ```
+
+#### mg-models
+
+Gives you the possibility of create a helpers declaration tags under global tag at config.xml
+
+    mg-models + tab
+
+```xml
+<models>
+	<namespace>
+		<class>Company_Module_Model</class>
+		<resourceModel>namespace_resource_type</resourceModel>
+		<namespace_resource_type>
+			<class>Company_Module_Model_Resource_Type</class>
+			<entities>
+				<table_alias>
+					<table>table_name</table>
+				</table_alias>
+			</entities>
+		</namespace_resource_type>
+	</namespace>
+</models>
+```

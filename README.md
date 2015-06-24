@@ -136,7 +136,7 @@ Gives you the possibility of create a rewrite helper class declaration tags unde
 
 #### mg-models
 
-Gives you the possibility of create a helpers declaration tags under global tag at config.xml
+Gives you the possibility of create a models declaration tags under global tag at config.xml
 
     mg-models + tab
 

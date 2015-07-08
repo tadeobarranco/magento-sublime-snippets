@@ -156,3 +156,18 @@ Gives you the possibility of create a models declaration tags under global tag a
 	</namespace>
 </models>
 ```
+
+#### mg-models-rewrite
+
+Gives you the possibility of create a rewrite model declaration tags under global tag at config.xml
+
+    mg-models-rewrite + tab
+
+```xml
+<namespace>
+	<rewrite>
+		<model_class>Company_Module_Model_New_Class</model_class>
+	</rewrite>
+</namespace>
+```
+

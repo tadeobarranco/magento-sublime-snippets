@@ -171,3 +171,12 @@ Gives you the possibility of create a rewrite model declaration tags under globa
 </namespace>
 ```
 
+#### mg-models-rewrite-class
+
+Gives you the possibility of create a rewrite model class declaration tags under global tag at config.xml
+
+    mg-models-rewrite-class + tab
+
+```xml
+<model_class>Company_Module_Helper_New_Class</model_class>
+```

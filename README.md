@@ -250,3 +250,33 @@ Gives you the possibility of create a rewrite model class declaration tags under
 ```xml
 <model_class>Company_Module_Helper_New_Class</model_class>
 ```
+
+#### mg-resources
+
+Gives you the possibility of create a resources node declaration tags under global tag at config.xml
+
+    mg-resources + tab
+
+```xml
+<resources>
+	<namespace_setup>
+		<setup>
+			<module>Company_Module</module>
+			<class>Company_Module_Model_Resource_Mysql4_Setup</class>
+		</setup>
+		<connection>
+			<use>core_setup</use>
+		</connection>
+	</namespace_setup>
+	<namespace_write>
+		<connection>
+			<use>core_write</use>
+		</connection>
+	</namespace_write>
+	<namespace_read>
+		<connection>
+			<use>core_read</use>
+		</connection>
+	</namespace_read>
+</resources>
+```

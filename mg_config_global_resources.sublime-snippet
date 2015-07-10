@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+${1:<resources>
+	<${2:namespace}_setup>
+		<setup>
+			<module>${3:Company}_${4:Module}</module>
+			<class>$3_$4_Model_Resource_Mysql4_Setup</class>
+		</setup>
+		<connection>
+			<use>core_setup</use>
+		</connection>
+	</$2_setup>
+	<$2_write>
+		<connection>
+			<use>core_write</use>
+		</connection>
+	</$2_write>
+	<$2_read>
+		<connection>
+			<use>core_read</use>
+		</connection>
+	</$2_read>
+</resources>}
+]]></content>
+	<tabTrigger>mg-resources</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

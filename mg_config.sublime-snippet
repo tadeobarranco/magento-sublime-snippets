@@ -23,6 +23,27 @@
 				<class>$1_$2_Model</class>
 			</${2/(.)/\L\1\E/g}>
 		</models>}
+		${8:<resources>
+			<${2/(.)/\L\1\E/g}_setup>
+				<setup>
+					<module>$1_$2</module>
+					<class>$1_$2_Model_Resource_Mysql4_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</${2/(.)/\L\1\E/g}_setup>
+			<${2/(.)/\L\1\E/g}_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</${2/(.)/\L\1\E/g}_write>
+			<${2/(.)/\L\1\E/g}_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</${2/(.)/\L\1\E/g}_read>
+		</resources>}
 	</global>}
 </config>
 ]]>

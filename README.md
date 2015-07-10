@@ -32,6 +32,55 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 
     mg-config + tab
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Pengo_Grids>
+			<version>0.0.1</version>
+		</Pengo_Grids>
+	</modules>
+	<global>
+		<blocks>
+			<grids>
+				<class>Pengo_Grids_Block</class>
+			</grids>
+		</blocks>
+		<helpers>
+			<grids>
+				<class>Pengo_Grids_Helper</class>
+			</grids>
+		</helpers>
+		<models>
+			<grids>
+				<class>Pengo_Grids_Model</class>
+			</grids>
+		</models>
+		<resources>
+			<grids_setup>
+				<setup>
+					<module>Pengo_Grids</module>
+					<class>Pengo_Grids_Model_Resource_Mysql4_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</grids_setup>
+			<grids_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</grids_write>
+			<grids_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</grids_read>
+		</resources>
+	</global>
+</config>
+```
+
 #### mg-global
 
 Gives you the possibility of create a global tag used at config.xml

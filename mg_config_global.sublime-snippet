@@ -16,6 +16,27 @@ ${1:<global>
 			<class>${12:Company}_${13:Module}_Model</class>
 		</$11>
 	</models>}
+	${14:<resources>
+		<${15:namespace}_setup>
+			<setup>
+				<module>${16:Company}_${17:Module}</module>
+				<class>$16_$17_Model_Resource_Mysql4_Setup</class>
+			</setup>
+			<connection>
+				<use>core_setup</use>
+			</connection>
+		</$15_setup>
+		<$15_write>
+			<connection>
+				<use>core_write</use>
+			</connection>
+		</$15_write>
+		<$15_read>
+			<connection>
+				<use>core_read</use>
+			</connection>
+		</$15_read>
+	</resources>}
 </global>}
 ]]></content>
 	<tabTrigger>mg-global</tabTrigger>

@@ -55,6 +55,27 @@ Gives you the possibility of create a global tag used at config.xml
 			<class>Company_Module_Model</class>
 		</namespace>
 	</models>
+	<resources>
+		<namespace_setup>
+			<setup>
+				<module>Company_Module</module>
+				<class>Company_Module_Model_Resource_Mysql4_Setup</class>
+			</setup>
+			<connection>
+				<use>core_setup</use>
+			</connection>
+		</namespace_setup>
+		<namespace_write>
+			<connection>
+				<use>core_write</use>
+			</connection>
+		</namespace_write>
+		<namespace_read>
+			<connection>
+				<use>core_read</use>
+			</connection>
+		</namespace_read>
+	</resources>
 </global>
 ```
     

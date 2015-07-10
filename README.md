@@ -36,46 +36,46 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
 	<modules>
-		<Pengo_Grids>
+		<Company_Module>
 			<version>0.0.1</version>
-		</Pengo_Grids>
+		</Company_Module>
 	</modules>
 	<global>
 		<blocks>
-			<grids>
-				<class>Pengo_Grids_Block</class>
-			</grids>
+			<module>
+				<class>Company_Module_Block</class>
+			</module>
 		</blocks>
 		<helpers>
-			<grids>
-				<class>Pengo_Grids_Helper</class>
-			</grids>
+			<module>
+				<class>Company_Module_Helper</class>
+			</module>
 		</helpers>
 		<models>
-			<grids>
-				<class>Pengo_Grids_Model</class>
-			</grids>
+			<module>
+				<class>Company_Module_Model</class>
+			</module>
 		</models>
 		<resources>
-			<grids_setup>
+			<module_setup>
 				<setup>
-					<module>Pengo_Grids</module>
-					<class>Pengo_Grids_Model_Resource_Mysql4_Setup</class>
+					<module>Company_Module</module>
+					<class>Company_Module_Model_Resource_Mysql4_Setup</class>
 				</setup>
 				<connection>
 					<use>core_setup</use>
 				</connection>
-			</grids_setup>
-			<grids_write>
+			</module_setup>
+			<module_write>
 				<connection>
 					<use>core_write</use>
 				</connection>
-			</grids_write>
-			<grids_read>
+			</module_write>
+			<module_read>
 				<connection>
 					<use>core_read</use>
 				</connection>
-			</grids_read>
+			</module_read>
 		</resources>
 	</global>
 </config>

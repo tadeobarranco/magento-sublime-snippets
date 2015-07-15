@@ -125,6 +125,17 @@ Gives you the possibility of create a global tag used at config.xml
 			</connection>
 		</namespace_read>
 	</resources>
+	<events>
+		<event_name>
+			<observers>
+				<unique_event_name>
+					<type>model/singleton</type>
+					<class>namespace/model_class_name</class>
+					<method>methodName</method>
+				</unique_event_name>
+			</observers>
+		</event_name>
+	</events>
 </global>
 ```
     

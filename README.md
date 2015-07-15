@@ -77,6 +77,17 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 				</connection>
 			</module_read>
 		</resources>
+		<events>
+			<event_name>
+				<observers>
+					<unique_event_name>
+						<type>model/singleton</type>
+						<class>module/model_class_name</class>
+						<method>methodName</method>
+					</unique_event_name>
+				</observers>
+			</event_name>
+		</events>
 	</global>
 </config>
 ```

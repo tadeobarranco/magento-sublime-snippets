@@ -37,6 +37,17 @@ ${1:<global>
 			</connection>
 		</$15_read>
 	</resources>}
+	${18:<events>
+		<${19:event_name}>
+			<observers>
+				<${20:unique_event_name}>
+					<type>${21:model/singleton}</type>
+					<class>${22:namespace/model_class_name}</class>
+					<method>${23:methodName}</method>
+				</$20>
+			</observers>
+		</$19>
+	</events>}
 </global>}
 ]]></content>
 	<tabTrigger>mg-global</tabTrigger>

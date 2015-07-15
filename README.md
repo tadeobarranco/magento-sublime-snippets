@@ -302,3 +302,23 @@ Gives you the possibility of create a resources node declaration tags under glob
 	</namespace_read>
 </resources>
 ```
+
+### mg-events
+
+Gives you the possibility of create a events node declaration at config.xml
+
+    mg-events + tab  
+
+```xml
+<events>
+	<event_name>
+		<observers>
+			<unique_event_name>
+				<type>model/singleton</type>
+				<class>namespace/model_class_name</class>
+				<method>methodName</method>
+			</unique_event_name>
+		</observers>
+	</event_name>
+</events>
+```

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:<events>
+	<${2:event_name}>
+		<observers>
+			<${3:unique_event_name}>
+				<type>${4:model/singleton}</type>
+				<class>${5:namespace/model_class_name}</class>
+				<method>${6:methodName}</method>
+			</$3>
+		</observers>
+	</$2>
+</events>}
+]]></content>
+	<tabTrigger>mg-events</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

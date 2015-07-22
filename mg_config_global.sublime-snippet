@@ -48,6 +48,13 @@ ${1:<global>
 			</observers>
 		</$19>
 	</events>}
+	${24:<fieldsets>
+		<${25:fieldset_name}>
+			<${26:source_field_code}>
+				<${27:aspect}></$27>
+			</$26>
+		</$25>
+	</fieldsets>}
 </global>}
 ]]></content>
 	<tabTrigger>mg-global</tabTrigger>

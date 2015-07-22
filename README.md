@@ -147,6 +147,13 @@ Gives you the possibility of create a global tag used at config.xml
 			</observers>
 		</event_name>
 	</events>
+	<fieldsets>
+		<fieldset_name>
+			<source_field_code>
+				<aspect></aspect>
+			</source_field_code>
+		</fieldset_name>
+	</fieldsets>
 </global>
 ```
     

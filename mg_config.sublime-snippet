@@ -55,6 +55,13 @@
 				</observers>
 			</$10>
 		</events>}
+		${15:<fieldsets>
+			<${16:fieldset_name}>
+				<${17:source_field_code}>
+					<${18:aspect}></$18>
+				</$17>
+			</$16>
+		</fieldsets>}
 	</global>}
 </config>
 ]]>

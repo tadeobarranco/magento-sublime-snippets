@@ -88,6 +88,13 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 				</observers>
 			</event_name>
 		</events>
+		<fieldsets>
+			<fieldset_name>
+				<source_field_code>
+					<aspect></aspect>
+				</source_field_code>
+			</fieldset_name>
+		</fieldsets>
 	</global>
 </config>
 ```

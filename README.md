@@ -336,3 +336,19 @@ Gives you the possibility of create a events node declaration at config.xml
 	</event_name>
 </events>
 ```
+
+### mg-fieldsets
+
+Gives you the possibility of create a fieldsets node declaration at config.xml
+
+    mg-fieldsets + tab
+
+```xml
+<fieldsets>
+	<fieldset_name>
+		<source_field_code>
+			<aspect></aspect>
+		</source_field_code>
+	</fieldset_name>
+</fieldsets>
+```

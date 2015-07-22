@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1:<fieldsets>
+	<${2:fieldset_name}>
+		<${3:source_field_code}>
+			<${4:aspect}></$4>
+		</$3>
+	</$2>
+</fieldsets>}
+]]></content>
+	<tabTrigger>mg-fieldsets</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

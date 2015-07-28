@@ -91,10 +91,19 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 		<fieldsets>
 			<fieldset_name>
 				<source_field_code>
-					<aspect></aspect>
+					<aspect>value</aspect>
 				</source_field_code>
 			</fieldset_name>
 		</fieldsets>
+		<template>
+			<email>
+				<template_code translate="label" module="module">
+					<label>value</label>
+					<file>value</file>
+					<type>value</type>
+				</template_code>
+			</email>
+		</template>
 	</global>
 </config>
 ```

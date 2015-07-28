@@ -58,10 +58,19 @@
 		${15:<fieldsets>
 			<${16:fieldset_name}>
 				<${17:source_field_code}>
-					<${18:aspect}></$18>
+					<${18:aspect}>${19:value}</$18>
 				</$17>
 			</$16>
 		</fieldsets>}
+		${20:<template>
+			<email>
+				<${21:template_code} translate="label" module="${2/(.)/\L\1\E/g}">
+					<label>${22:value}</label>
+					<file>${23:value}</file>
+					<type>${24:value}</type>
+				</$21>
+			</email>
+		</template>}
 	</global>}
 </config>
 ]]>

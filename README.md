@@ -166,10 +166,19 @@ Gives you the possibility of create a global tag used at config.xml
 	<fieldsets>
 		<fieldset_name>
 			<source_field_code>
-				<aspect></aspect>
+				<aspect>value</aspect>
 			</source_field_code>
 		</fieldset_name>
 	</fieldsets>
+	<template>
+		<email>
+			<template_code translate="label" module="namespace">
+				<label>value</label>
+				<file>value</file>
+				<type>value</type>
+			</template_code>
+		</email>
+	</template>
 </global>
 ```
     

@@ -51,10 +51,19 @@ ${1:<global>
 	${24:<fieldsets>
 		<${25:fieldset_name}>
 			<${26:source_field_code}>
-				<${27:aspect}></$27>
+				<${27:aspect}>${28:value}</$27>
 			</$26>
 		</$25>
 	</fieldsets>}
+	${29:<template>
+		<email>
+			<${30:template_code} translate="label" module="${31:namespace}">
+				<label>${32:value}</label>
+				<file>${33:value}</file>
+				<type>${34:value}</type>
+			</$30>
+		</email>
+	</template>}
 </global>}
 ]]></content>
 	<tabTrigger>mg-global</tabTrigger>

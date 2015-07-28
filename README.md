@@ -388,3 +388,23 @@ Gives you the possibility of create a template tag anatomy in config.xml
 	</email>
 </template>
 ```
+
+### mg-frontend
+
+Gives you the possiblity of create a frontend anatomy in config.xml
+
+    mg-frontend + tab
+
+```xml
+<frontend>
+	<routers>
+		<namespace>
+            <use>standard</use>
+            <args>
+                <module>Company_Module</module>
+                <frontName>namespace</frontName>
+            </args>
+        </namespace>
+	</routers>
+</frontend>
+```

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:<template>
+	<email>
+		<${2:template_code} translate="label" module="${3:namespace}">
+			<label>${4:value}</label>
+			<file>${5:value}</file>
+			<type>${6:value}</type>
+		</$2>
+	</email>
+</template>}
+]]></content>
+	<tabTrigger>mg-template</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

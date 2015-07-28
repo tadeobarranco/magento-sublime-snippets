@@ -370,3 +370,21 @@ Gives you the possibility of create a fieldsets node declaration at config.xml
 	</fieldset_name>
 </fieldsets>
 ```
+
+### mg-template
+
+Gives you the possibility of create a template tag anatomy in config.xml 
+
+    mg-template + tab
+
+```xml
+<template>
+	<email>
+		<template_code translate="label" module="namespace">
+			<label>value</label>
+			<file>value</file>
+			<type>value</type>
+		</template_code>
+	</email>
+</template>
+```

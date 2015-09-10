@@ -26,7 +26,7 @@ Gives you the possibility of create a usual Company_Module.xml file
 </config>
 ```
 
-#### mg-config 
+#### mg-config
 
 Gives you the possibility of create a entire config.xml file (This gives you a way to interact with the different tags involved at config.xml file structure)
 
@@ -181,7 +181,7 @@ Gives you the possibility of create a global tag used at config.xml
 	</template>
 </global>
 ```
-    
+
 #### mg-blocks
 
 Gives you the possibility of create a blocks declaration tags under global tag at config.xml
@@ -339,7 +339,7 @@ Gives you the possibility of create a resources node declaration tags under glob
 
 Gives you the possibility of create a events node declaration at config.xml
 
-    mg-events + tab  
+    mg-events + tab
 
 ```xml
 <events>
@@ -373,7 +373,7 @@ Gives you the possibility of create a fieldsets node declaration at config.xml
 
 ### mg-template
 
-Gives you the possibility of create a template tag anatomy in config.xml 
+Gives you the possibility of create a template tag anatomy in config.xml
 
     mg-template + tab
 
@@ -399,12 +399,30 @@ Gives you the possiblity of create a frontend anatomy in config.xml
 <frontend>
 	<routers>
 		<namespace>
-            <use>standard</use>
-            <args>
-                <module>Company_Module</module>
-                <frontName>namespace</frontName>
-            </args>
-        </namespace>
+      <use>standard</use>
+      <args>
+        <module>Company_Module</module>
+        <frontName>namespace</frontName>
+      </args>
+    </namespace>
 	</routers>
 </frontend>
+```
+
+### mg-frontend-routers
+
+Gives you the possiblity of create a frontend router anatomy in config.xml
+
+    mg-frontend-routers + tab
+
+```xml
+<routers>
+  <namespace>
+    <use>standard</use>
+    <args>
+      <module>Company_Module</module>
+      <frontName>namespace</frontName>
+    </args>
+  </namespace>
+</routers>
 ```

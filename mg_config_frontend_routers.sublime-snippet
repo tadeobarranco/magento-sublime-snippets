@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${1:<routers>
+  <${2:namespace}>
+    <use>standard</use>
+    <args>
+      <module>${3:Company_Module}</module>
+      <frontName>$2</frontName>
+    </args>
+  </$2>
+</routers>}
+]]></content>
+  <tabTrigger>mg-frontend-routers</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

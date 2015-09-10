@@ -3,12 +3,12 @@
 ${1:<frontend>
 	${2:<routers>
 		<${3:namespace}>
-            <use>standard</use>
-            <args>
-                <module>${4:Company_Module}</module>
-                <frontName>$3</frontName>
-            </args>
-        </$3>
+      <use>standard</use>
+      <args>
+        <module>${4:Company_Module}</module>
+        <frontName>$3</frontName>
+      </args>
+    </$3>
 	</routers>}
 </frontend>}
 ]]></content>

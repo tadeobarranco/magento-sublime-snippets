@@ -397,15 +397,15 @@ Gives you the possiblity of create a frontend anatomy in config.xml
 
 ```xml
 <frontend>
-	<routers>
-		<namespace>
+  <routers>
+    <namespace>
       <use>standard</use>
       <args>
         <module>Company_Module</module>
         <frontName>namespace</frontName>
       </args>
     </namespace>
-	</routers>
+  </routers>
 </frontend>
 ```
 

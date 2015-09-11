@@ -228,9 +228,9 @@ Gives you the possibility of create a helpers declaration tags under global tag 
 
 ```xml
 <helpers>
-	<namespace>
-		<class>Company_Module_Helper</class>
-	</namespace>
+  <namespace>
+    <class>Company_Module_Helper</class>
+  </namespace>
 </helpers>
 ```
 
@@ -242,9 +242,9 @@ Gives you the possibility of create a rewrite helper declaration tags under glob
 
 ```xml
 <namespace>
-	<rewrite>
-		<helper_class>Company_Module_Helper_New_Class</helper_class>
-	</rewrite>
+  <rewrite>
+    <helper_class>Company_Module_Helper_New_Class</helper_class>
+  </rewrite>
 </namespace>
 ```
 
@@ -266,18 +266,18 @@ Gives you the possibility of create a models declaration tags under global tag a
 
 ```xml
 <models>
-	<namespace>
-		<class>Company_Module_Model</class>
-		<resourceModel>namespace_resource_type</resourceModel>
-		<namespace_resource_type>
-			<class>Company_Module_Model_Resource_Type</class>
-			<entities>
-				<table_alias>
-					<table>table_name</table>
-				</table_alias>
-			</entities>
-		</namespace_resource_type>
-	</namespace>
+  <namespace>
+    <class>Company_Module_Model</class>
+    <resourceModel>namespace_resource_type</resourceModel>
+    <namespace_resource_type>
+      <class>Company_Module_Model_Resource_Type</class>
+      <entities>
+        <table_alias>
+          <table>table_name</table>
+        </table_alias>
+      </entities>
+    </namespace_resource_type>
+  </namespace>
 </models>
 ```
 
@@ -289,9 +289,9 @@ Gives you the possibility of create a rewrite model declaration tags under globa
 
 ```xml
 <namespace>
-	<rewrite>
-		<model_class>Company_Module_Model_New_Class</model_class>
-	</rewrite>
+  <rewrite>
+    <model_class>Company_Module_Model_New_Class</model_class>
+  </rewrite>
 </namespace>
 ```
 
@@ -313,25 +313,25 @@ Gives you the possibility of create a resources node declaration tags under glob
 
 ```xml
 <resources>
-	<namespace_setup>
-		<setup>
-			<module>Company_Module</module>
-			<class>Company_Module_Model_Resource_Mysql4_Setup</class>
-		</setup>
-		<connection>
-			<use>core_setup</use>
-		</connection>
-	</namespace_setup>
-	<namespace_write>
-		<connection>
-			<use>core_write</use>
-		</connection>
-	</namespace_write>
-	<namespace_read>
-		<connection>
-			<use>core_read</use>
-		</connection>
-	</namespace_read>
+  <namespace_setup>
+    <setup>
+      <module>Company_Module</module>
+      <class>Company_Module_Model_Resource_Mysql4_Setup</class>
+    </setup>
+    <connection>
+      <use>core_setup</use>
+    </connection>
+  </namespace_setup>
+  <namespace_write>
+    <connection>
+      <use>core_write</use>
+    </connection>
+  </namespace_write>
+  <namespace_read>
+    <connection>
+      <use>core_read</use>
+    </connection>
+  </namespace_read>
 </resources>
 ```
 
@@ -343,15 +343,15 @@ Gives you the possibility of create a events node declaration at config.xml
 
 ```xml
 <events>
-	<event_name>
-		<observers>
-			<unique_event_name>
-				<type>model/singleton</type>
-				<class>namespace/model_class_name</class>
-				<method>methodName</method>
-			</unique_event_name>
-		</observers>
-	</event_name>
+  <event_name>
+    <observers>
+      <unique_event_name>
+        <type>model/singleton</type>
+        <class>namespace/model_class_name</class>
+        <method>methodName</method>
+      </unique_event_name>
+    </observers>
+  </event_name>
 </events>
 ```
 
@@ -363,11 +363,11 @@ Gives you the possibility of create a fieldsets node declaration at config.xml
 
 ```xml
 <fieldsets>
-	<fieldset_name>
-		<source_field_code>
-			<aspect></aspect>
-		</source_field_code>
-	</fieldset_name>
+  <fieldset_name>
+    <source_field_code>
+      <aspect></aspect>
+    </source_field_code>
+  </fieldset_name>
 </fieldsets>
 ```
 
@@ -379,13 +379,13 @@ Gives you the possibility of create a template tag anatomy in config.xml
 
 ```xml
 <template>
-	<email>
-		<template_code translate="label" module="namespace">
-			<label>value</label>
-			<file>value</file>
-			<type>value</type>
-		</template_code>
-	</email>
+  <email>
+    <template_code translate="label" module="namespace">
+      <label>value</label>
+      <file>value</file>
+      <type>value</type>
+    </template_code>
+  </email>
 </template>
 ```
 

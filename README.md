@@ -17,12 +17,12 @@ Gives you the possibility of create a usual Company_Module.xml file
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<modules>
-		<Company_Module>
-			<active>true</active>
-			<codePool>local</codePool>
-		</Company_Module>
-	</modules>
+  <modules>
+    <Company_Module>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Company_Module>
+  </modules>
 </config>
 ```
 
@@ -35,76 +35,76 @@ Gives you the possibility of create a entire config.xml file (This gives you a w
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<modules>
-		<Company_Module>
-			<version>0.0.1</version>
-		</Company_Module>
-	</modules>
-	<global>
-		<blocks>
-			<module>
-				<class>Company_Module_Block</class>
-			</module>
-		</blocks>
-		<helpers>
-			<module>
-				<class>Company_Module_Helper</class>
-			</module>
-		</helpers>
-		<models>
-			<module>
-				<class>Company_Module_Model</class>
-			</module>
-		</models>
-		<resources>
-			<module_setup>
-				<setup>
-					<module>Company_Module</module>
-					<class>Company_Module_Model_Resource_Mysql4_Setup</class>
-				</setup>
-				<connection>
-					<use>core_setup</use>
-				</connection>
-			</module_setup>
-			<module_write>
-				<connection>
-					<use>core_write</use>
-				</connection>
-			</module_write>
-			<module_read>
-				<connection>
-					<use>core_read</use>
-				</connection>
-			</module_read>
-		</resources>
-		<events>
-			<event_name>
-				<observers>
-					<unique_event_name>
-						<type>model/singleton</type>
-						<class>module/model_class_name</class>
-						<method>methodName</method>
-					</unique_event_name>
-				</observers>
-			</event_name>
-		</events>
-		<fieldsets>
-			<fieldset_name>
-				<source_field_code>
-					<aspect>value</aspect>
-				</source_field_code>
-			</fieldset_name>
-		</fieldsets>
-		<template>
-			<email>
-				<template_code translate="label" module="module">
-					<label>value</label>
-					<file>value</file>
-					<type>value</type>
-				</template_code>
-			</email>
-		</template>
-	</global>
+  <modules>
+    <Company_Module>
+      <version>0.0.1</version>
+    </Company_Module>
+  </modules>
+  <global>
+    <blocks>
+      <module>
+        <class>Company_Module_Block</class>
+      </module>
+    </blocks>
+    <helpers>
+      <module>
+        <class>Company_Module_Helper</class>
+      </module>
+    </helpers>
+    <models>
+      <module>
+        <class>Company_Module_Model</class>
+      </module>
+    </models>
+    <resources>
+      <module_setup>
+        <setup>
+          <module>Company_Module</module>
+          <class>Company_Module_Model_Resource_Mysql4_Setup</class>
+        </setup>
+        <connection>
+          <use>core_setup</use>
+        </connection>
+      </module_setup>
+      <module_write>
+        <connection>
+          <use>core_write</use>
+        </connection>
+      </module_write>
+      <module_read>
+        <connection>
+          <use>core_read</use>
+        </connection>
+      </module_read>
+    </resources>
+    <events>
+      <event_name>
+        <observers>
+          <unique_event_name>
+            <type>model/singleton</type>
+            <class>module/model_class_name</class>
+            <method>methodName</method>
+          </unique_event_name>
+        </observers>
+      </event_name>
+    </events>
+    <fieldsets>
+      <fieldset_name>
+        <source_field_code>
+          <aspect>value</aspect>
+        </source_field_code>
+      </fieldset_name>
+    </fieldsets>
+    <template>
+      <email>
+        <template_code translate="label" module="module">
+          <label>value</label>
+          <file>value</file>
+          <type>value</type>
+        </template_code>
+      </email>
+    </template>
+  </global>
 </config>
 ```
 
@@ -190,9 +190,9 @@ Gives you the possibility of create a blocks declaration tags under global tag a
 
 ```xml
 <blocks>
-	<namespace>
-		<class>Company_Module_Block</class>
-	</namespace>
+  <namespace>
+    <class>Company_Module_Block</class>
+  </namespace>
 </blocks>
 ```
 
@@ -204,9 +204,9 @@ Gives you the possibility of create a rewrite block declaration tags under globa
 
 ```xml
 <namespace>
-	<rewrite>
-		<block_class>Company_Module_Block_New_Class</block_class>
-	</rewrite>
+  <rewrite>
+    <block_class>Company_Module_Block_New_Class</block_class>
+  </rewrite>
 </namespace>
 ```
 

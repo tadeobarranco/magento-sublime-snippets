@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+if(\$installer->getConnection()->isTableExists($installer->getTable('${1:module}/${2:table}'))) {
+	\$installer->getConnection()->dropTable($installer->getTable('$1/$2'));
+}
+]]></content>
+	<tabTrigger>mg-drop-table</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

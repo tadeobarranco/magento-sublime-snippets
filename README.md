@@ -8,6 +8,8 @@ The snippets has a scope restriction, snippets about configurations and layouts 
 
 You can navigate through each snippet so you can change the values of the different components that comprise.
 
+### XML
+
 #### mg-module
 
 Gives you the possibility of create a usual Company_Module.xml file
@@ -335,7 +337,7 @@ Gives you the possibility of create a resources node declaration tags under glob
 </resources>
 ```
 
-### mg-events
+#### mg-events
 
 Gives you the possibility of create a events node declaration at config.xml
 
@@ -355,7 +357,7 @@ Gives you the possibility of create a events node declaration at config.xml
 </events>
 ```
 
-### mg-fieldsets
+#### mg-fieldsets
 
 Gives you the possibility of create a fieldsets node declaration at config.xml
 
@@ -371,7 +373,7 @@ Gives you the possibility of create a fieldsets node declaration at config.xml
 </fieldsets>
 ```
 
-### mg-template
+#### mg-template
 
 Gives you the possibility of create a template tag anatomy in config.xml
 
@@ -389,7 +391,7 @@ Gives you the possibility of create a template tag anatomy in config.xml
 </template>
 ```
 
-### mg-frontend
+#### mg-frontend
 
 Gives you the possiblity of create a frontend anatomy in config.xml
 
@@ -409,7 +411,7 @@ Gives you the possiblity of create a frontend anatomy in config.xml
 </frontend>
 ```
 
-### mg-frontend-routers
+#### mg-frontend-routers
 
 Gives you the possiblity of create a frontend router anatomy in config.xml
 
@@ -425,4 +427,18 @@ Gives you the possiblity of create a frontend router anatomy in config.xml
     </args>
   </namespace>
 </routers>
+```
+
+### PHP
+
+#### mg-drop-table
+
+Gives you the possiblity to make the sentence to drop an existing table in an installer file
+
+    mg-drop-table + tab
+
+```php
+if($installer->getConnection()->isTableExists(->getTable('module/table'))) {
+  $installer->getConnection()->dropTable(->getTable('module/table'));
+}
 ```

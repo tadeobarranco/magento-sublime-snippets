@@ -438,7 +438,7 @@ Gives you the possiblity to make the sentence to drop an existing table in an in
     mg-drop-table + tab
 
 ```php
-if($installer->getConnection()->isTableExists(->getTable('module/table'))) {
-  $installer->getConnection()->dropTable(->getTable('module/table'));
+if($installer->getConnection()->isTableExists($installer->getTable('module/table'))) {
+  $installer->getConnection()->dropTable($installer->getTable('module/table'));
 }
 ```

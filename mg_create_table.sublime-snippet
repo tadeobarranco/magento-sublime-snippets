@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$table = \$installer->getConnection()
+			->newTable(\$installer->getTable('${1:module}/${2:table}'))
+			->addColumn('${3:column_name}', Varien_Db_Ddl_Table::${4:TYPE}, ${5:length}, array(
+				'${6:option}' => ${7:value},
+			), '${8:Column comment}')
+			->setComment('${9:Table comment}');
+]]></content>
+	<tabTrigger>mg-create-table</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

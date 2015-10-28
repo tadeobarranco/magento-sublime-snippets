@@ -442,3 +442,40 @@ if($installer->getConnection()->isTableExists($installer->getTable('module/table
   $installer->getConnection()->dropTable($installer->getTable('module/table'));
 }
 ```
+
+#### mg-create-table
+
+Gives you the possiblity to make the sentence to create table in an installer file
+
+    mg-create-table + tab
+
+```php
+$table = $installer->getConnection()
+      ->newTable($installer->getTable('module/table'))
+      ->addColumn('column_name', Varien_Db_Ddl_Table::TYPE, length, array(
+        'option' => value,
+      ), 'Column comment')
+      ->setComment('Table comment');
+```
+
+#### mg-add-table-column
+
+Gives you the possiblity to make the sentence to add new column to a new or an existing table in an installer file
+
+    mg-add-table-column + tab
+
+```php
+->addColumn('column_name', Varien_Db_Ddl_Table::TYPE, length, array(
+  'option' => value,
+), 'Column comment')
+```
+
+#### mg-add-table-column-option
+
+Gives you the possiblity to make the sentence to add a column option to a new or an existing table in an installer file
+
+    mg-add-table-column-option + tab
+
+```php
+'option' => value,
+```

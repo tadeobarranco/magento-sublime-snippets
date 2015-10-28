@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+->addColumn('${1:column_name}', Varien_Db_Ddl_Table::${2:TYPE}, ${3:length}, array(
+	'${4:option}' => ${5:value},
+), '${6:Column comment}')
+]]></content>
+	<tabTrigger>mg-add-table-column</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -456,6 +456,7 @@ $table = $installer->getConnection()
         'option' => value,
       ), 'Column comment')
       ->setComment('Table comment');
+$installer->getConnection()->createTable($table);
 ```
 
 #### mg-add-table-column

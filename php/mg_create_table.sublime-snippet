@@ -6,6 +6,7 @@
 				'${6:option}' => ${7:value},
 			), '${8:Column comment}')
 			->setComment('${9:Table comment}');
+\$installer->getConnection()->createTable(\$table);
 ]]></content>
 	<tabTrigger>mg-create-table</tabTrigger>
 	<scope>source.php</scope>

@@ -1,4 +1,4 @@
-# Magento Sublime Snippets
+# Magento 1.x - Sublime Snippets
 
 This files are created to help Magento Developers to create the needed files in a custom Magento Module Application on Sublime Text Editor.
 

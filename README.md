@@ -429,6 +429,19 @@ Gives you the possiblity of create a frontend router anatomy in config.xml
 </routers>
 ```
 
+#### mg-theme
+
+Gives you the possibility to create a theme haracly config
+
+    mg-theme + tab
+
+```xml
+<?xml version="1.0"?>
+<theme>
+    <parent>package/theme</parent>
+</theme>
+```
+
 ### PHP
 
 #### mg-drop-table
@@ -479,4 +492,14 @@ Gives you the possiblity to make the sentence to add a column option to a new or
 
 ```php
 'option' => value,
+```
+
+#### mg-add-existing-table-column
+
+Give you the possibility to add a new column in an exiting tab 
+
+    mg-add-existing-table-column + tab
+
+```php
+$installer->getConnection()->addColumn($this->getTable('vendor/module'), 'column_name', 'options');
 ```

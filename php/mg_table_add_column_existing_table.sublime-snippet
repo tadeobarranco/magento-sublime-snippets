@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$installer->getConnection()->addColumn(\$this->getTable('${1:vendor}/${2:module}'), '${3:column_name}', '${4:options}');
+]]></content>
+	<tabTrigger>mg-add-existing-table-column</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

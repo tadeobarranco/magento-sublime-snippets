@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0"?>
+<theme>
+    <parent>${1:package}/${2:theme}</parent>
+</theme>
+]]></content>
+	<tabTrigger>mg-theme</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

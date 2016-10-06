@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<layout version="0.1.0">
+    ${1:<${2:vendor}_${3:controller}_${4:action}>
+        ${5:<reference name="${6:name}">
+        
+        </reference>}
+    </$2_$3_$4>}
+</layout>
+]]></content>
+	<tabTrigger>mg-layout</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

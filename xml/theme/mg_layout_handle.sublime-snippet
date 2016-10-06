@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<${1:vendor}_${2:controller}_${3:action}>
+	
+</$1_$2_$3>
+]]></content>
+	<tabTrigger>mg-layout-handle</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

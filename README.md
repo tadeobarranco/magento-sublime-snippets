@@ -442,6 +442,34 @@ Gives you the possibility to create a theme haracly config
 </theme>
 ```
 
+#### mg-layout
+
+Gives you the possibility to create a minimal layout xml structure
+
+    mg-layout + tab
+
+```xml
+<layout version="0.1.0">
+    <handle>
+        <reference name="name">
+
+        </reference>
+    </handle>
+</layout>
+```
+
+#### mg-layout-handle
+
+Gives you the possibility to create a minimal layout handle tag
+
+    mg-layout-handle + tab
+
+```xml
+<vendor_controller_action>
+  
+</vendor_controller_action>
+```
+
 ### PHP
 
 #### mg-drop-table
